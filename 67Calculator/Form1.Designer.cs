@@ -28,429 +28,429 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.roundedButton1 = new _67Calculator.RoundedButton();
-            this.roundedButton15 = new _67Calculator.RoundedButton();
-            this.roundedButton14 = new _67Calculator.RoundedButton();
-            this.btnDivision = new _67Calculator.RoundedButton();
-            this.btnDecimal = new _67Calculator.RoundedButton();
-            this.btn0 = new _67Calculator.RoundedButton();
-            this.btnPositiveNegative = new _67Calculator.RoundedButton();
-            this.btnMultiplication = new _67Calculator.RoundedButton();
-            this.btnSubtraction = new _67Calculator.RoundedButton();
-            this.btnAddition = new _67Calculator.RoundedButton();
-            this.btn3 = new _67Calculator.RoundedButton();
-            this.btn6 = new _67Calculator.RoundedButton();
-            this.btn9 = new _67Calculator.RoundedButton();
-            this.btn2 = new _67Calculator.RoundedButton();
-            this.btn5 = new _67Calculator.RoundedButton();
-            this.btn8 = new _67Calculator.RoundedButton();
-            this.btn1 = new _67Calculator.RoundedButton();
-            this.btn4 = new _67Calculator.RoundedButton();
-            this.btn7 = new _67Calculator.RoundedButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.BtnClear = new _67Calculator.RoundedButton();
+            this.BtnEquals = new _67Calculator.RoundedButton();
+            this.BtnBackspace = new _67Calculator.RoundedButton();
+            this.BtnDivision = new _67Calculator.RoundedButton();
+            this.BtnDecimal = new _67Calculator.RoundedButton();
+            this.Btn0 = new _67Calculator.RoundedButton();
+            this.BtnPositiveNegative = new _67Calculator.RoundedButton();
+            this.BtnMultiplication = new _67Calculator.RoundedButton();
+            this.BtnSubtraction = new _67Calculator.RoundedButton();
+            this.BtnAddition = new _67Calculator.RoundedButton();
+            this.Btn3 = new _67Calculator.RoundedButton();
+            this.Btn6 = new _67Calculator.RoundedButton();
+            this.Btn9 = new _67Calculator.RoundedButton();
+            this.Btn2 = new _67Calculator.RoundedButton();
+            this.Btn5 = new _67Calculator.RoundedButton();
+            this.Btn8 = new _67Calculator.RoundedButton();
+            this.Btn1 = new _67Calculator.RoundedButton();
+            this.Btn4 = new _67Calculator.RoundedButton();
+            this.Btn7 = new _67Calculator.RoundedButton();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // label1
             // 
-            this.richTextBox1.BackColor = System.Drawing.Color.Black;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1.Location = new System.Drawing.Point(15, 14);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(380, 110);
-            this.richTextBox1.TabIndex = 21;
-            this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.LightGreen;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(405, 131);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "0";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
-            // roundedButton1
+            // BtnClear
             // 
-            this.roundedButton1.BackColor = System.Drawing.Color.Black;
-            this.roundedButton1.BorderColor = System.Drawing.Color.ForestGreen;
-            this.roundedButton1.BorderRadius = 20;
-            this.roundedButton1.BorderSize = 2;
-            this.roundedButton1.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.roundedButton1.FlatAppearance.BorderSize = 0;
-            this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
-            this.roundedButton1.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.roundedButton1.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.roundedButton1.Location = new System.Drawing.Point(324, 228);
-            this.roundedButton1.Name = "roundedButton1";
-            this.roundedButton1.Size = new System.Drawing.Size(72, 92);
-            this.roundedButton1.TabIndex = 22;
-            this.roundedButton1.Text = "C";
-            this.roundedButton1.UseVisualStyleBackColor = false;
-            this.roundedButton1.Click += new System.EventHandler(this.roundedButton1_Click_1);
+            this.BtnClear.BackColor = System.Drawing.Color.Black;
+            this.BtnClear.BorderColor = System.Drawing.Color.ForestGreen;
+            this.BtnClear.BorderRadius = 20;
+            this.BtnClear.BorderSize = 2;
+            this.BtnClear.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnClear.FlatAppearance.BorderSize = 0;
+            this.BtnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.BtnClear.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnClear.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.BtnClear.Location = new System.Drawing.Point(324, 228);
+            this.BtnClear.Name = "BtnClear";
+            this.BtnClear.Size = new System.Drawing.Size(72, 92);
+            this.BtnClear.TabIndex = 22;
+            this.BtnClear.Text = "C";
+            this.BtnClear.UseVisualStyleBackColor = false;
             // 
-            // roundedButton15
+            // BtnEquals
             // 
-            this.roundedButton15.BackColor = System.Drawing.Color.Black;
-            this.roundedButton15.BorderColor = System.Drawing.Color.ForestGreen;
-            this.roundedButton15.BorderRadius = 20;
-            this.roundedButton15.BorderSize = 2;
-            this.roundedButton15.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.roundedButton15.FlatAppearance.BorderSize = 0;
-            this.roundedButton15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButton15.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.roundedButton15.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.roundedButton15.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.roundedButton15.Location = new System.Drawing.Point(324, 326);
-            this.roundedButton15.Name = "roundedButton15";
-            this.roundedButton15.Size = new System.Drawing.Size(72, 190);
-            this.roundedButton15.TabIndex = 20;
-            this.roundedButton15.Text = "=";
-            this.roundedButton15.UseVisualStyleBackColor = false;
+            this.BtnEquals.BackColor = System.Drawing.Color.Black;
+            this.BtnEquals.BorderColor = System.Drawing.Color.ForestGreen;
+            this.BtnEquals.BorderRadius = 20;
+            this.BtnEquals.BorderSize = 2;
+            this.BtnEquals.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnEquals.FlatAppearance.BorderSize = 0;
+            this.BtnEquals.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEquals.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.BtnEquals.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnEquals.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.BtnEquals.Location = new System.Drawing.Point(324, 326);
+            this.BtnEquals.Name = "BtnEquals";
+            this.BtnEquals.Size = new System.Drawing.Size(72, 190);
+            this.BtnEquals.TabIndex = 20;
+            this.BtnEquals.Text = "=";
+            this.BtnEquals.UseVisualStyleBackColor = false;
             // 
-            // roundedButton14
+            // BtnBackspace
             // 
-            this.roundedButton14.BackColor = System.Drawing.Color.Black;
-            this.roundedButton14.BorderColor = System.Drawing.Color.ForestGreen;
-            this.roundedButton14.BorderRadius = 20;
-            this.roundedButton14.BorderSize = 2;
-            this.roundedButton14.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.roundedButton14.FlatAppearance.BorderSize = 0;
-            this.roundedButton14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButton14.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
-            this.roundedButton14.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.roundedButton14.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.roundedButton14.Location = new System.Drawing.Point(324, 134);
-            this.roundedButton14.Name = "roundedButton14";
-            this.roundedButton14.Size = new System.Drawing.Size(72, 92);
-            this.roundedButton14.TabIndex = 19;
-            this.roundedButton14.Text = "⌫";
-            this.roundedButton14.UseVisualStyleBackColor = false;
-            this.roundedButton14.Click += new System.EventHandler(this.roundedButton14_Click);
+            this.BtnBackspace.BackColor = System.Drawing.Color.Black;
+            this.BtnBackspace.BorderColor = System.Drawing.Color.ForestGreen;
+            this.BtnBackspace.BorderRadius = 20;
+            this.BtnBackspace.BorderSize = 2;
+            this.BtnBackspace.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnBackspace.FlatAppearance.BorderSize = 0;
+            this.BtnBackspace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBackspace.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.BtnBackspace.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnBackspace.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.BtnBackspace.Location = new System.Drawing.Point(324, 134);
+            this.BtnBackspace.Name = "BtnBackspace";
+            this.BtnBackspace.Size = new System.Drawing.Size(72, 92);
+            this.BtnBackspace.TabIndex = 19;
+            this.BtnBackspace.Text = "⌫";
+            this.BtnBackspace.UseVisualStyleBackColor = false;
             // 
-            // btnDivision
+            // BtnDivision
             // 
-            this.btnDivision.BackColor = System.Drawing.Color.Black;
-            this.btnDivision.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btnDivision.BorderRadius = 20;
-            this.btnDivision.BorderSize = 2;
-            this.btnDivision.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btnDivision.FlatAppearance.BorderSize = 0;
-            this.btnDivision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btnDivision.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnDivision.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btnDivision.Location = new System.Drawing.Point(246, 428);
-            this.btnDivision.Name = "btnDivision";
-            this.btnDivision.Size = new System.Drawing.Size(72, 92);
-            this.btnDivision.TabIndex = 18;
-            this.btnDivision.Text = "÷";
-            this.btnDivision.UseVisualStyleBackColor = false;
+            this.BtnDivision.BackColor = System.Drawing.Color.Black;
+            this.BtnDivision.BorderColor = System.Drawing.Color.ForestGreen;
+            this.BtnDivision.BorderRadius = 20;
+            this.BtnDivision.BorderSize = 2;
+            this.BtnDivision.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnDivision.FlatAppearance.BorderSize = 0;
+            this.BtnDivision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.BtnDivision.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnDivision.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.BtnDivision.Location = new System.Drawing.Point(246, 428);
+            this.BtnDivision.Name = "BtnDivision";
+            this.BtnDivision.Size = new System.Drawing.Size(72, 92);
+            this.BtnDivision.TabIndex = 18;
+            this.BtnDivision.Text = "÷";
+            this.BtnDivision.UseVisualStyleBackColor = false;
             // 
-            // btnDecimal
+            // BtnDecimal
             // 
-            this.btnDecimal.BackColor = System.Drawing.Color.Black;
-            this.btnDecimal.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btnDecimal.BorderRadius = 20;
-            this.btnDecimal.BorderSize = 2;
-            this.btnDecimal.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btnDecimal.FlatAppearance.BorderSize = 0;
-            this.btnDecimal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDecimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btnDecimal.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnDecimal.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btnDecimal.Location = new System.Drawing.Point(168, 428);
-            this.btnDecimal.Name = "btnDecimal";
-            this.btnDecimal.Size = new System.Drawing.Size(72, 92);
-            this.btnDecimal.TabIndex = 17;
-            this.btnDecimal.Text = ".";
-            this.btnDecimal.UseVisualStyleBackColor = false;
+            this.BtnDecimal.BackColor = System.Drawing.Color.Black;
+            this.BtnDecimal.BorderColor = System.Drawing.Color.ForestGreen;
+            this.BtnDecimal.BorderRadius = 20;
+            this.BtnDecimal.BorderSize = 2;
+            this.BtnDecimal.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnDecimal.FlatAppearance.BorderSize = 0;
+            this.BtnDecimal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnDecimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.BtnDecimal.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnDecimal.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.BtnDecimal.Location = new System.Drawing.Point(168, 428);
+            this.BtnDecimal.Name = "BtnDecimal";
+            this.BtnDecimal.Size = new System.Drawing.Size(72, 92);
+            this.BtnDecimal.TabIndex = 17;
+            this.BtnDecimal.Text = ".";
+            this.BtnDecimal.UseVisualStyleBackColor = false;
             // 
-            // btn0
+            // Btn0
             // 
-            this.btn0.BackColor = System.Drawing.Color.Black;
-            this.btn0.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btn0.BorderRadius = 20;
-            this.btn0.BorderSize = 2;
-            this.btn0.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btn0.FlatAppearance.BorderSize = 0;
-            this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btn0.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn0.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btn0.Location = new System.Drawing.Point(90, 428);
-            this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(72, 92);
-            this.btn0.TabIndex = 16;
-            this.btn0.Text = "0";
-            this.btn0.UseVisualStyleBackColor = false;
+            this.Btn0.BackColor = System.Drawing.Color.Black;
+            this.Btn0.BorderColor = System.Drawing.Color.ForestGreen;
+            this.Btn0.BorderRadius = 20;
+            this.Btn0.BorderSize = 2;
+            this.Btn0.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Btn0.FlatAppearance.BorderSize = 0;
+            this.Btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.Btn0.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn0.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.Btn0.Location = new System.Drawing.Point(90, 428);
+            this.Btn0.Name = "Btn0";
+            this.Btn0.Size = new System.Drawing.Size(72, 92);
+            this.Btn0.TabIndex = 16;
+            this.Btn0.Text = "0";
+            this.Btn0.UseVisualStyleBackColor = false;
             // 
-            // btnPositiveNegative
+            // BtnPositiveNegative
             // 
-            this.btnPositiveNegative.BackColor = System.Drawing.Color.Black;
-            this.btnPositiveNegative.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btnPositiveNegative.BorderRadius = 20;
-            this.btnPositiveNegative.BorderSize = 2;
-            this.btnPositiveNegative.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btnPositiveNegative.FlatAppearance.BorderSize = 0;
-            this.btnPositiveNegative.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPositiveNegative.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
-            this.btnPositiveNegative.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnPositiveNegative.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btnPositiveNegative.Location = new System.Drawing.Point(12, 428);
-            this.btnPositiveNegative.Name = "btnPositiveNegative";
-            this.btnPositiveNegative.Size = new System.Drawing.Size(72, 92);
-            this.btnPositiveNegative.TabIndex = 15;
-            this.btnPositiveNegative.Text = "+/-";
-            this.btnPositiveNegative.UseVisualStyleBackColor = false;
-            this.btnPositiveNegative.Click += new System.EventHandler(this.roundedButton18_Click);
+            this.BtnPositiveNegative.BackColor = System.Drawing.Color.Black;
+            this.BtnPositiveNegative.BorderColor = System.Drawing.Color.ForestGreen;
+            this.BtnPositiveNegative.BorderRadius = 20;
+            this.BtnPositiveNegative.BorderSize = 2;
+            this.BtnPositiveNegative.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnPositiveNegative.FlatAppearance.BorderSize = 0;
+            this.BtnPositiveNegative.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnPositiveNegative.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
+            this.BtnPositiveNegative.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnPositiveNegative.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.BtnPositiveNegative.Location = new System.Drawing.Point(12, 428);
+            this.BtnPositiveNegative.Name = "BtnPositiveNegative";
+            this.BtnPositiveNegative.Size = new System.Drawing.Size(72, 92);
+            this.BtnPositiveNegative.TabIndex = 15;
+            this.BtnPositiveNegative.Text = "+/-";
+            this.BtnPositiveNegative.UseVisualStyleBackColor = false;
             // 
-            // btnMultiplication
+            // BtnMultiplication
             // 
-            this.btnMultiplication.BackColor = System.Drawing.Color.Black;
-            this.btnMultiplication.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btnMultiplication.BorderRadius = 20;
-            this.btnMultiplication.BorderSize = 2;
-            this.btnMultiplication.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btnMultiplication.FlatAppearance.BorderSize = 0;
-            this.btnMultiplication.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMultiplication.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btnMultiplication.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnMultiplication.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btnMultiplication.Location = new System.Drawing.Point(246, 330);
-            this.btnMultiplication.Name = "btnMultiplication";
-            this.btnMultiplication.Size = new System.Drawing.Size(72, 92);
-            this.btnMultiplication.TabIndex = 11;
-            this.btnMultiplication.Text = "x";
-            this.btnMultiplication.UseVisualStyleBackColor = false;
+            this.BtnMultiplication.BackColor = System.Drawing.Color.Black;
+            this.BtnMultiplication.BorderColor = System.Drawing.Color.ForestGreen;
+            this.BtnMultiplication.BorderRadius = 20;
+            this.BtnMultiplication.BorderSize = 2;
+            this.BtnMultiplication.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnMultiplication.FlatAppearance.BorderSize = 0;
+            this.BtnMultiplication.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMultiplication.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.BtnMultiplication.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnMultiplication.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.BtnMultiplication.Location = new System.Drawing.Point(246, 330);
+            this.BtnMultiplication.Name = "BtnMultiplication";
+            this.BtnMultiplication.Size = new System.Drawing.Size(72, 92);
+            this.BtnMultiplication.TabIndex = 11;
+            this.BtnMultiplication.Text = "x";
+            this.BtnMultiplication.UseVisualStyleBackColor = false;
             // 
-            // btnSubtraction
+            // BtnSubtraction
             // 
-            this.btnSubtraction.BackColor = System.Drawing.Color.Black;
-            this.btnSubtraction.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btnSubtraction.BorderRadius = 20;
-            this.btnSubtraction.BorderSize = 2;
-            this.btnSubtraction.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btnSubtraction.FlatAppearance.BorderSize = 0;
-            this.btnSubtraction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubtraction.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btnSubtraction.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnSubtraction.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btnSubtraction.Location = new System.Drawing.Point(246, 232);
-            this.btnSubtraction.Name = "btnSubtraction";
-            this.btnSubtraction.Size = new System.Drawing.Size(72, 92);
-            this.btnSubtraction.TabIndex = 10;
-            this.btnSubtraction.Text = "-";
-            this.btnSubtraction.UseVisualStyleBackColor = false;
+            this.BtnSubtraction.BackColor = System.Drawing.Color.Black;
+            this.BtnSubtraction.BorderColor = System.Drawing.Color.ForestGreen;
+            this.BtnSubtraction.BorderRadius = 20;
+            this.BtnSubtraction.BorderSize = 2;
+            this.BtnSubtraction.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnSubtraction.FlatAppearance.BorderSize = 0;
+            this.BtnSubtraction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSubtraction.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.BtnSubtraction.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnSubtraction.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.BtnSubtraction.Location = new System.Drawing.Point(246, 232);
+            this.BtnSubtraction.Name = "BtnSubtraction";
+            this.BtnSubtraction.Size = new System.Drawing.Size(72, 92);
+            this.BtnSubtraction.TabIndex = 10;
+            this.BtnSubtraction.Text = "-";
+            this.BtnSubtraction.UseVisualStyleBackColor = false;
             // 
-            // btnAddition
+            // BtnAddition
             // 
-            this.btnAddition.BackColor = System.Drawing.Color.Black;
-            this.btnAddition.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btnAddition.BorderRadius = 20;
-            this.btnAddition.BorderSize = 2;
-            this.btnAddition.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btnAddition.FlatAppearance.BorderSize = 0;
-            this.btnAddition.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddition.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btnAddition.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAddition.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btnAddition.Location = new System.Drawing.Point(246, 134);
-            this.btnAddition.Name = "btnAddition";
-            this.btnAddition.Size = new System.Drawing.Size(72, 92);
-            this.btnAddition.TabIndex = 9;
-            this.btnAddition.Text = "+";
-            this.btnAddition.UseVisualStyleBackColor = false;
+            this.BtnAddition.BackColor = System.Drawing.Color.Black;
+            this.BtnAddition.BorderColor = System.Drawing.Color.ForestGreen;
+            this.BtnAddition.BorderRadius = 20;
+            this.BtnAddition.BorderSize = 2;
+            this.BtnAddition.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnAddition.FlatAppearance.BorderSize = 0;
+            this.BtnAddition.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAddition.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.BtnAddition.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.BtnAddition.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.BtnAddition.Location = new System.Drawing.Point(246, 134);
+            this.BtnAddition.Name = "BtnAddition";
+            this.BtnAddition.Size = new System.Drawing.Size(72, 92);
+            this.BtnAddition.TabIndex = 9;
+            this.BtnAddition.Text = "+";
+            this.BtnAddition.UseVisualStyleBackColor = false;
             // 
-            // btn3
+            // Btn3
             // 
-            this.btn3.BackColor = System.Drawing.Color.Black;
-            this.btn3.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btn3.BorderRadius = 20;
-            this.btn3.BorderSize = 2;
-            this.btn3.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btn3.FlatAppearance.BorderSize = 0;
-            this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btn3.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn3.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btn3.Location = new System.Drawing.Point(168, 330);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(72, 92);
-            this.btn3.TabIndex = 8;
-            this.btn3.Text = "3";
-            this.btn3.UseVisualStyleBackColor = false;
+            this.Btn3.BackColor = System.Drawing.Color.Black;
+            this.Btn3.BorderColor = System.Drawing.Color.ForestGreen;
+            this.Btn3.BorderRadius = 20;
+            this.Btn3.BorderSize = 2;
+            this.Btn3.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Btn3.FlatAppearance.BorderSize = 0;
+            this.Btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.Btn3.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn3.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.Btn3.Location = new System.Drawing.Point(168, 330);
+            this.Btn3.Name = "Btn3";
+            this.Btn3.Size = new System.Drawing.Size(72, 92);
+            this.Btn3.TabIndex = 8;
+            this.Btn3.Text = "3";
+            this.Btn3.UseVisualStyleBackColor = false;
             // 
-            // btn6
+            // Btn6
             // 
-            this.btn6.BackColor = System.Drawing.Color.Black;
-            this.btn6.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btn6.BorderRadius = 20;
-            this.btn6.BorderSize = 2;
-            this.btn6.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btn6.FlatAppearance.BorderSize = 0;
-            this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btn6.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn6.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btn6.Location = new System.Drawing.Point(168, 232);
-            this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(72, 92);
-            this.btn6.TabIndex = 7;
-            this.btn6.Text = "6";
-            this.btn6.UseVisualStyleBackColor = false;
+            this.Btn6.BackColor = System.Drawing.Color.Black;
+            this.Btn6.BorderColor = System.Drawing.Color.ForestGreen;
+            this.Btn6.BorderRadius = 20;
+            this.Btn6.BorderSize = 2;
+            this.Btn6.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Btn6.FlatAppearance.BorderSize = 0;
+            this.Btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.Btn6.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn6.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.Btn6.Location = new System.Drawing.Point(168, 232);
+            this.Btn6.Name = "Btn6";
+            this.Btn6.Size = new System.Drawing.Size(72, 92);
+            this.Btn6.TabIndex = 7;
+            this.Btn6.Text = "6";
+            this.Btn6.UseVisualStyleBackColor = false;
             // 
-            // btn9
+            // Btn9
             // 
-            this.btn9.BackColor = System.Drawing.Color.Black;
-            this.btn9.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btn9.BorderRadius = 20;
-            this.btn9.BorderSize = 2;
-            this.btn9.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btn9.FlatAppearance.BorderSize = 0;
-            this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btn9.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn9.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btn9.Location = new System.Drawing.Point(168, 134);
-            this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(72, 92);
-            this.btn9.TabIndex = 6;
-            this.btn9.Text = "9";
-            this.btn9.UseVisualStyleBackColor = false;
+            this.Btn9.BackColor = System.Drawing.Color.Black;
+            this.Btn9.BorderColor = System.Drawing.Color.ForestGreen;
+            this.Btn9.BorderRadius = 20;
+            this.Btn9.BorderSize = 2;
+            this.Btn9.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Btn9.FlatAppearance.BorderSize = 0;
+            this.Btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.Btn9.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn9.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.Btn9.Location = new System.Drawing.Point(168, 134);
+            this.Btn9.Name = "Btn9";
+            this.Btn9.Size = new System.Drawing.Size(72, 92);
+            this.Btn9.TabIndex = 6;
+            this.Btn9.Text = "9";
+            this.Btn9.UseVisualStyleBackColor = false;
             // 
-            // btn2
+            // Btn2
             // 
-            this.btn2.BackColor = System.Drawing.Color.Black;
-            this.btn2.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btn2.BorderRadius = 20;
-            this.btn2.BorderSize = 2;
-            this.btn2.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btn2.FlatAppearance.BorderSize = 0;
-            this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btn2.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn2.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btn2.Location = new System.Drawing.Point(90, 330);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(72, 92);
-            this.btn2.TabIndex = 5;
-            this.btn2.Text = "2";
-            this.btn2.UseVisualStyleBackColor = false;
+            this.Btn2.BackColor = System.Drawing.Color.Black;
+            this.Btn2.BorderColor = System.Drawing.Color.ForestGreen;
+            this.Btn2.BorderRadius = 20;
+            this.Btn2.BorderSize = 2;
+            this.Btn2.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Btn2.FlatAppearance.BorderSize = 0;
+            this.Btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.Btn2.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn2.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.Btn2.Location = new System.Drawing.Point(90, 330);
+            this.Btn2.Name = "Btn2";
+            this.Btn2.Size = new System.Drawing.Size(72, 92);
+            this.Btn2.TabIndex = 5;
+            this.Btn2.Text = "2";
+            this.Btn2.UseVisualStyleBackColor = false;
             // 
-            // btn5
+            // Btn5
             // 
-            this.btn5.BackColor = System.Drawing.Color.Black;
-            this.btn5.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btn5.BorderRadius = 20;
-            this.btn5.BorderSize = 2;
-            this.btn5.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btn5.FlatAppearance.BorderSize = 0;
-            this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btn5.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn5.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btn5.Location = new System.Drawing.Point(90, 232);
-            this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(72, 92);
-            this.btn5.TabIndex = 4;
-            this.btn5.Text = "5";
-            this.btn5.UseVisualStyleBackColor = false;
+            this.Btn5.BackColor = System.Drawing.Color.Black;
+            this.Btn5.BorderColor = System.Drawing.Color.ForestGreen;
+            this.Btn5.BorderRadius = 20;
+            this.Btn5.BorderSize = 2;
+            this.Btn5.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Btn5.FlatAppearance.BorderSize = 0;
+            this.Btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.Btn5.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn5.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.Btn5.Location = new System.Drawing.Point(90, 232);
+            this.Btn5.Name = "Btn5";
+            this.Btn5.Size = new System.Drawing.Size(72, 92);
+            this.Btn5.TabIndex = 4;
+            this.Btn5.Text = "5";
+            this.Btn5.UseVisualStyleBackColor = false;
             // 
-            // btn8
+            // Btn8
             // 
-            this.btn8.BackColor = System.Drawing.Color.Black;
-            this.btn8.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btn8.BorderRadius = 20;
-            this.btn8.BorderSize = 2;
-            this.btn8.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btn8.FlatAppearance.BorderSize = 0;
-            this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btn8.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn8.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btn8.Location = new System.Drawing.Point(90, 134);
-            this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(72, 92);
-            this.btn8.TabIndex = 3;
-            this.btn8.Text = "8";
-            this.btn8.UseVisualStyleBackColor = false;
+            this.Btn8.BackColor = System.Drawing.Color.Black;
+            this.Btn8.BorderColor = System.Drawing.Color.ForestGreen;
+            this.Btn8.BorderRadius = 20;
+            this.Btn8.BorderSize = 2;
+            this.Btn8.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Btn8.FlatAppearance.BorderSize = 0;
+            this.Btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.Btn8.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn8.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.Btn8.Location = new System.Drawing.Point(90, 134);
+            this.Btn8.Name = "Btn8";
+            this.Btn8.Size = new System.Drawing.Size(72, 92);
+            this.Btn8.TabIndex = 3;
+            this.Btn8.Text = "8";
+            this.Btn8.UseVisualStyleBackColor = false;
             // 
-            // btn1
+            // Btn1
             // 
-            this.btn1.BackColor = System.Drawing.Color.Black;
-            this.btn1.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btn1.BorderRadius = 20;
-            this.btn1.BorderSize = 2;
-            this.btn1.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btn1.FlatAppearance.BorderSize = 0;
-            this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btn1.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn1.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btn1.Location = new System.Drawing.Point(12, 330);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(72, 92);
-            this.btn1.TabIndex = 2;
-            this.btn1.Text = "1";
-            this.btn1.UseVisualStyleBackColor = false;
+            this.Btn1.BackColor = System.Drawing.Color.Black;
+            this.Btn1.BorderColor = System.Drawing.Color.ForestGreen;
+            this.Btn1.BorderRadius = 20;
+            this.Btn1.BorderSize = 2;
+            this.Btn1.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Btn1.FlatAppearance.BorderSize = 0;
+            this.Btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.Btn1.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn1.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.Btn1.Location = new System.Drawing.Point(12, 330);
+            this.Btn1.Name = "Btn1";
+            this.Btn1.Size = new System.Drawing.Size(72, 92);
+            this.Btn1.TabIndex = 2;
+            this.Btn1.Text = "1";
+            this.Btn1.UseVisualStyleBackColor = false;
             // 
-            // btn4
+            // Btn4
             // 
-            this.btn4.BackColor = System.Drawing.Color.Black;
-            this.btn4.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btn4.BorderRadius = 20;
-            this.btn4.BorderSize = 2;
-            this.btn4.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btn4.FlatAppearance.BorderSize = 0;
-            this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btn4.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn4.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btn4.Location = new System.Drawing.Point(12, 232);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(72, 92);
-            this.btn4.TabIndex = 1;
-            this.btn4.Text = "4";
-            this.btn4.UseVisualStyleBackColor = false;
+            this.Btn4.BackColor = System.Drawing.Color.Black;
+            this.Btn4.BorderColor = System.Drawing.Color.ForestGreen;
+            this.Btn4.BorderRadius = 20;
+            this.Btn4.BorderSize = 2;
+            this.Btn4.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Btn4.FlatAppearance.BorderSize = 0;
+            this.Btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.Btn4.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn4.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.Btn4.Location = new System.Drawing.Point(12, 232);
+            this.Btn4.Name = "Btn4";
+            this.Btn4.Size = new System.Drawing.Size(72, 92);
+            this.Btn4.TabIndex = 1;
+            this.Btn4.Text = "4";
+            this.Btn4.UseVisualStyleBackColor = false;
             // 
-            // btn7
+            // Btn7
             // 
-            this.btn7.BackColor = System.Drawing.Color.Black;
-            this.btn7.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btn7.BorderRadius = 20;
-            this.btn7.BorderSize = 2;
-            this.btn7.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(96)))));
-            this.btn7.FlatAppearance.BorderSize = 0;
-            this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.btn7.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btn7.HoverBackColor = System.Drawing.Color.ForestGreen;
-            this.btn7.Location = new System.Drawing.Point(12, 134);
-            this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(72, 92);
-            this.btn7.TabIndex = 0;
-            this.btn7.Text = "7";
-            this.btn7.UseVisualStyleBackColor = false;
-            this.btn7.Click += new System.EventHandler(this.roundedButton1_Click);
+            this.Btn7.BackColor = System.Drawing.Color.Black;
+            this.Btn7.BorderColor = System.Drawing.Color.ForestGreen;
+            this.Btn7.BorderRadius = 20;
+            this.Btn7.BorderSize = 2;
+            this.Btn7.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Btn7.FlatAppearance.BorderSize = 0;
+            this.Btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
+            this.Btn7.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Btn7.HoverBackColor = System.Drawing.Color.ForestGreen;
+            this.Btn7.Location = new System.Drawing.Point(12, 134);
+            this.Btn7.Name = "Btn7";
+            this.Btn7.Size = new System.Drawing.Size(72, 92);
+            this.Btn7.TabIndex = 0;
+            this.Btn7.Text = "7";
+            this.Btn7.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
-            this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(405, 528);
-            this.Controls.Add(this.roundedButton1);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.roundedButton15);
-            this.Controls.Add(this.roundedButton14);
-            this.Controls.Add(this.btnDivision);
-            this.Controls.Add(this.btnDecimal);
-            this.Controls.Add(this.btn0);
-            this.Controls.Add(this.btnPositiveNegative);
-            this.Controls.Add(this.btnMultiplication);
-            this.Controls.Add(this.btnSubtraction);
-            this.Controls.Add(this.btnAddition);
-            this.Controls.Add(this.btn3);
-            this.Controls.Add(this.btn6);
-            this.Controls.Add(this.btn9);
-            this.Controls.Add(this.btn2);
-            this.Controls.Add(this.btn5);
-            this.Controls.Add(this.btn8);
-            this.Controls.Add(this.btn1);
-            this.Controls.Add(this.btn4);
-            this.Controls.Add(this.btn7);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.BtnClear);
+            this.Controls.Add(this.BtnEquals);
+            this.Controls.Add(this.BtnBackspace);
+            this.Controls.Add(this.BtnDivision);
+            this.Controls.Add(this.BtnDecimal);
+            this.Controls.Add(this.Btn0);
+            this.Controls.Add(this.BtnPositiveNegative);
+            this.Controls.Add(this.BtnMultiplication);
+            this.Controls.Add(this.BtnSubtraction);
+            this.Controls.Add(this.BtnAddition);
+            this.Controls.Add(this.Btn3);
+            this.Controls.Add(this.Btn6);
+            this.Controls.Add(this.Btn9);
+            this.Controls.Add(this.Btn2);
+            this.Controls.Add(this.Btn5);
+            this.Controls.Add(this.Btn8);
+            this.Controls.Add(this.Btn1);
+            this.Controls.Add(this.Btn4);
+            this.Controls.Add(this.Btn7);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "BrainrotCalc";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
@@ -459,26 +459,26 @@
 
         #endregion
 
-        private RoundedButton btn7;
-        private RoundedButton btn4;
-        private RoundedButton btn1;
-        private RoundedButton btn8;
-        private RoundedButton btn5;
-        private RoundedButton btn2;
-        private RoundedButton btn9;
-        private RoundedButton btn6;
-        private RoundedButton btn3;
-        private RoundedButton btnAddition;
-        private RoundedButton btnSubtraction;
-        private RoundedButton btnMultiplication;
-        private RoundedButton btnPositiveNegative;
-        private RoundedButton btn0;
-        private RoundedButton btnDecimal;
-        private RoundedButton btnDivision;
-        private RoundedButton roundedButton14;
-        private RoundedButton roundedButton15;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private RoundedButton roundedButton1;
+        private RoundedButton Btn7;
+        private RoundedButton Btn4;
+        private RoundedButton Btn1;
+        private RoundedButton Btn8;
+        private RoundedButton Btn5;
+        private RoundedButton Btn2;
+        private RoundedButton Btn9;
+        private RoundedButton Btn6;
+        private RoundedButton Btn3;
+        private RoundedButton BtnAddition;
+        private RoundedButton BtnSubtraction;
+        private RoundedButton BtnMultiplication;
+        private RoundedButton BtnPositiveNegative;
+        private RoundedButton Btn0;
+        private RoundedButton BtnDecimal;
+        private RoundedButton BtnDivision;
+        private RoundedButton BtnBackspace;
+        private RoundedButton BtnEquals;
+        private RoundedButton BtnClear;
+        private System.Windows.Forms.Label label1;
     }
 }
 

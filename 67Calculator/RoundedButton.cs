@@ -166,5 +166,12 @@ namespace _67Calculator
 
             return path;
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            this.ResumeLayout(false);
+
+        }
     }
 }
