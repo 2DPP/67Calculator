@@ -1,1 +1,1 @@
-# 1st time making a basic calculator and its a Brainrot Calculator cuz boredom
+# calculator but when the value of the result is equals to 67, something magical happens.
